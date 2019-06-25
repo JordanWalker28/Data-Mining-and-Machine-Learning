@@ -1,0 +1,37 @@
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 20 -do-not-check-capabilitiesRandom ForestSplit Classifier Built in 28.2330539226532 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        3342               46.5589 %
+Incorrectly Classified Instances      3836               53.4411 %
+Kappa statistic                          0.3383
+Mean absolute error                      0.2033
+Root mean squared error                  0.3114
+Relative absolute error                 86.0301 %
+Root relative squared error             90.5576 %
+Total Number of Instances             7178     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.197    0.031    0.493      0.197    0.282      0.251    0.694     0.350     angry
+                 0.315    0.000    1.000      0.315    0.479      0.559    0.810     0.498     disgust
+                 0.265    0.044    0.503      0.265    0.347      0.293    0.708     0.417     fear
+                 0.772    0.304    0.454      0.772    0.572      0.409    0.813     0.631     happy
+                 0.414    0.125    0.408      0.414    0.411      0.288    0.754     0.439     neutral
+                 0.355    0.118    0.389      0.355    0.371      0.246    0.728     0.389     sad
+                 0.631    0.046    0.643      0.631    0.637      0.590    0.879     0.694     suprise
+Weighted Avg.    0.466    0.133    0.477      0.466    0.445      0.346    0.765     0.493     
+
+[[ 189.    0.   50.  367.  151.  148.   53.]
+ [   6.   35.    5.   40.   10.    9.    6.]
+ [  38.    0.  271.  295.  157.  167.   96.]
+ [  37.    0.   40. 1369.  126.  143.   59.]
+ [  40.    0.   50.  405.  511.  186.   41.]
+ [  55.    0.   75.  406.  232.  443.   36.]
+ [  18.    0.   48.  131.   66.   44.  524.]]
+
+Random ForestClassifier Evaluated in 0.807037353515625 secs.

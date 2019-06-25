@@ -1,0 +1,54 @@
+Bayes Network Classifier
+not using ADTree
+#attributes=15 #classindex=0
+Network structure (nodes followed by parents)
+emotion(7): 
+pixel0(4): emotion 
+pixel1(5): emotion 
+pixel2(2): emotion 
+pixel3(4): emotion 
+pixel4(5): emotion 
+pixel5(5): emotion 
+pixel6(5): emotion 
+pixel7(6): emotion 
+pixel8(3): emotion 
+pixel9(4): emotion 
+pixel10(4): emotion 
+pixel11(4): emotion 
+pixel12(5): emotion 
+pixel13(4): emotion 
+LogScore Bayes: -553750.7597058495
+LogScore BDeu: -554782.709626813
+LogScore MDL: -554556.7202925656
+LogScore ENTROPY: -552873.2601657747
+LogScore AIC: -553201.2601657747
+Bayes Split Classifier Built in 0.5177545547485352 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        1940               27.0308 %
+Incorrectly Classified Instances      5237               72.9692 %
+Kappa statistic                          0.1134
+Mean absolute error                      0.222 
+Root mean squared error                  0.354 
+Relative absolute error                 94.0479 %
+Root relative squared error            103.0675 %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.055    0.028    0.247      0.055    0.090      0.055    0.577     0.177     angry
+                 0.000    0.000    ?          0.000    ?          ?        0.596     0.021     disgust
+                 0.066    0.037    0.238      0.066    0.103      0.052    0.571     0.184     fear
+                 0.433    0.275    0.351      0.433    0.388      0.149    0.626     0.371     happy
+                 0.151    0.089    0.263      0.151    0.192      0.079    0.594     0.243     neutral
+                 0.362    0.243    0.223      0.362    0.276      0.099    0.614     0.219     sad
+                 0.546    0.215    0.230      0.546    0.323      0.234    0.730     0.271     surprise
+Weighted Avg.    0.270    0.157    ?          0.270    ?          ?        0.614     0.253     
+[[ 56.   0.  52. 313.  93. 304. 195.]
+ [  3.   0.   3.  33.  10.  32.  27.]
+ [ 39.   0.  70. 277.  89. 250. 340.]
+ [ 61.   0.  56. 794. 140. 429. 353.]
+ [ 26.   0.  38. 364. 188. 344. 284.]
+ [ 30.   0.  54. 343. 128. 420. 184.]
+ [ 12.   0.  21. 138.  66. 106. 412.]]
+Bayes Split Classifier Evaluated in 0.08129286766052246 secs.

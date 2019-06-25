@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.Cobweb -A 1.0 -C 0.0028209479177387815 -S 42
+Relation:     faces
+Instances:    35887
+Attributes:   15
+              pixel0
+              pixel1
+              pixel2
+              pixel3
+              pixel4
+              pixel5
+              pixel6
+              pixel7
+              pixel8
+              pixel9
+              pixel10
+              pixel11
+              pixel12
+              pixel13
+Ignored:
+              emotion
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+Number of merges: 0
+Number of splits: 0
+Number of clusters: 1
+
+leaf 0 [35887]
+
+
+
+Time taken to build model (full training data) : 90.77 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      35887 (100%)
+
+
+Class attribute: emotion
+Classes to Clusters:
+
+    0  <-- assigned to cluster
+ 4953 | angry
+  547 | disgust
+ 5121 | fear
+ 8989 | happy
+ 6198 | neutral
+ 6077 | sad
+ 4002 | surprise
+
+Cluster 0 <-- happy
+
+Incorrectly clustered instances :	26898.0	 74.9519 %
+

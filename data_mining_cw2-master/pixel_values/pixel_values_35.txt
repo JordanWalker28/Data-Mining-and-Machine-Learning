@@ -1,0 +1,8 @@
+344,351,345,368,320,14,12,13,11,15,192,216,239,241,193,468,467,492,491,469,5,50,44,26,2,155,156,131,132,179,367,343,344,203,179
+fer2018/reduced_arffs/fer2018angry.reduced.arff
+fer2018/reduced_arffs/fer2018disgust.reduced.arff
+fer2018/reduced_arffs/fer2018fear.reduced.arff
+fer2018/reduced_arffs/fer2018happy.reduced.arff
+fer2018/reduced_arffs/fer2018neutral.reduced.arff
+fer2018/reduced_arffs/fer2018sad.reduced.arff
+fer2018/reduced_arffs/fer2018surprise.reduced.arff

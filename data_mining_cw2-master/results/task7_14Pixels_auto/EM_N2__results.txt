@@ -1,0 +1,169 @@
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 34
+
+
+            Cluster
+Attribute         0       1
+             (0.53)  (0.47)
+============================
+pixel0
+  mean        0.7303  0.4455
+  std. dev.   0.1107  0.1547
+
+pixel1
+  mean        0.6827  0.4868
+  std. dev.   0.1543  0.1825
+
+pixel2
+  mean        0.5932  0.4376
+  std. dev.   0.2433  0.2355
+
+pixel3
+  mean        0.6155  0.4427
+  std. dev.    0.239  0.2311
+
+pixel4
+  mean        0.5163  0.3745
+  std. dev.   0.2997  0.2696
+
+pixel5
+  mean        0.5253  0.3797
+  std. dev.   0.2969  0.2683
+
+pixel6
+  mean        0.5701   0.397
+  std. dev.    0.189  0.1797
+
+pixel7
+  mean        0.5736  0.3917
+  std. dev.   0.1895  0.1774
+
+pixel8
+  mean         0.513  0.3652
+  std. dev.     0.26  0.2387
+
+pixel9
+  mean        0.4758  0.3458
+  std. dev.   0.2815  0.2538
+
+pixel10
+  mean        0.7202  0.4912
+  std. dev.   0.1474  0.1858
+
+pixel11
+  mean        0.4793  0.3836
+  std. dev.   0.3045  0.2745
+
+pixel12
+  mean        0.7217  0.4318
+  std. dev.   0.1122  0.1564
+
+pixel13
+  mean        0.7498  0.4599
+  std. dev.   0.1024  0.1575
+
+Clusterer Built in 4.184641599655151 secs.
+
+Clustering data.
+Cluster results
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 34
+
+
+            Cluster
+Attribute         0       1
+             (0.53)  (0.47)
+============================
+pixel0
+  mean        0.7303  0.4455
+  std. dev.   0.1107  0.1547
+
+pixel1
+  mean        0.6827  0.4868
+  std. dev.   0.1543  0.1825
+
+pixel2
+  mean        0.5932  0.4376
+  std. dev.   0.2433  0.2355
+
+pixel3
+  mean        0.6155  0.4427
+  std. dev.    0.239  0.2311
+
+pixel4
+  mean        0.5163  0.3745
+  std. dev.   0.2997  0.2696
+
+pixel5
+  mean        0.5253  0.3797
+  std. dev.   0.2969  0.2683
+
+pixel6
+  mean        0.5701   0.397
+  std. dev.    0.189  0.1797
+
+pixel7
+  mean        0.5736  0.3917
+  std. dev.   0.1895  0.1774
+
+pixel8
+  mean         0.513  0.3652
+  std. dev.     0.26  0.2387
+
+pixel9
+  mean        0.4758  0.3458
+  std. dev.   0.2815  0.2538
+
+pixel10
+  mean        0.7202  0.4912
+  std. dev.   0.1474  0.1858
+
+pixel11
+  mean        0.4793  0.3836
+  std. dev.   0.3045  0.2745
+
+pixel12
+  mean        0.7217  0.4318
+  std. dev.   0.1122  0.1564
+
+pixel13
+  mean        0.7498  0.4599
+  std. dev.   0.1024  0.1575
+
+Clustered Instances
+
+0      19005 ( 53%)
+1      16882 ( 47%)
+
+
+Log likelihood: 1.99422
+
+
+Class attribute: emotion
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+ 2295 2658 | angry
+  311  236 | disgust
+ 2932 2189 | fear
+ 4596 4393 | happy
+ 3302 2896 | neutral
+ 2585 3492 | sad
+ 2984 1018 | surprise
+
+Cluster 0 <-- happy
+Cluster 1 <-- sad
+
+Incorrectly clustered instances :	27799.0	 77.4626 %
+
+Classes to clusters
+[3 5]
+Clustered data in 0.11330652236938477 secs.

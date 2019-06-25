@@ -1,0 +1,27 @@
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilitiesRandom Forest Cross Eval Classifier Built in 19.144972324371338 secs.
+
+Cross Evaluating on test data.
+Correctly Classified Instances       28660               79.8618 %
+Incorrectly Classified Instances      7227               20.1382 %
+Kappa statistic                          0.3417
+Mean absolute error                      0.2973
+Root mean squared error                  0.378 
+Relative absolute error                 79.1725 %
+Root relative squared error             87.2291 %
+Total Number of Instances            35887     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.959    0.680    0.808      0.959    0.877      0.384    0.804     0.916     NotHappy
+                 0.320    0.041    0.721      0.320    0.443      0.384    0.804     0.609     Happy
+Weighted Avg.    0.799    0.520    0.786      0.799    0.768      0.384    0.804     0.839     
+
+[[25786.  1112.]
+ [ 6115.  2874.]]
+
+Random Forest Cross Eval Classifier Evaluated in 122.9208881855011 secs.

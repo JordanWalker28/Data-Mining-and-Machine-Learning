@@ -1,0 +1,40 @@
+Number of merges: 0
+Number of splits: 0
+Number of clusters: 1
+
+leaf 0 [35887]
+
+Clusterer Built in 79.31988263130188 secs.
+
+Clustering data.
+Cluster results
+Number of merges: 0
+Number of splits: 0
+Number of clusters: 1
+
+leaf 0 [35887]
+
+Clustered Instances
+
+0      35887 (100%)
+
+
+Class attribute: emotion
+Classes to Clusters:
+
+    0  <-- assigned to cluster
+ 4953 | angry
+  547 | disgust
+ 5121 | fear
+ 8989 | happy
+ 6198 | neutral
+ 6077 | sad
+ 4002 | surprise
+
+Cluster 0 <-- happy
+
+Incorrectly clustered instances :	26898.0	 74.9519 %
+
+Classes to clusters
+[3]
+Clustered data in 0.017465829849243164 secs.

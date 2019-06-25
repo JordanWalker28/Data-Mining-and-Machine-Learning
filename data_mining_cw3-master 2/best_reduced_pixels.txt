@@ -1,0 +1,109 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 4
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     faces
+Instances:    35887
+Attributes:   577
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 45882
+	Merit of best subset found:    0.043
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1 emotion):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 2,3,6,24,25,26,39,49,50,61,73,121,133,157,158,175,181,182,183,194,202,205,206,222,227,229,230,246,254,294,296,309,314,319,322,345,346,353,358,369,370,378,385,386,393,402,403,417,418,426,434,446,455,457,468,469,470,471,483,492,493,494,495,505,506,517,524,537,546,549,552,553,554,556,560,561,562,565,568,569,571 : 81
+                     pixel0
+                     pixel1
+                     pixel4
+                     pixel22
+                     pixel23
+                     pixel24
+                     pixel37
+                     pixel47
+                     pixel48
+                     pixel59
+                     pixel71
+                     pixel119
+                     pixel131
+                     pixel155
+                     pixel156
+                     pixel173
+                     pixel179
+                     pixel180
+                     pixel181
+                     pixel192
+                     pixel200
+                     pixel203
+                     pixel204
+                     pixel220
+                     pixel225
+                     pixel227
+                     pixel228
+                     pixel244
+                     pixel252
+                     pixel292
+                     pixel294
+                     pixel307
+                     pixel312
+                     pixel317
+                     pixel320
+                     pixel343
+                     pixel344
+                     pixel351
+                     pixel356
+                     pixel367
+                     pixel368
+                     pixel376
+                     pixel383
+                     pixel384
+                     pixel391
+                     pixel400
+                     pixel401
+                     pixel415
+                     pixel416
+                     pixel424
+                     pixel432
+                     pixel444
+                     pixel453
+                     pixel455
+                     pixel466
+                     pixel467
+                     pixel468
+                     pixel469
+                     pixel481
+                     pixel490
+                     pixel491
+                     pixel492
+                     pixel493
+                     pixel503
+                     pixel504
+                     pixel515
+                     pixel522
+                     pixel535
+                     pixel544
+                     pixel547
+                     pixel550
+                     pixel551
+                     pixel552
+                     pixel554
+                     pixel558
+                     pixel559
+                     pixel560
+                     pixel563
+                     pixel566
+                     pixel567
+                     pixel569
+

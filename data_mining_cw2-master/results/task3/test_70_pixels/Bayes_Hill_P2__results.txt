@@ -1,0 +1,110 @@
+Bayes Network Classifier
+not using ADTree
+#attributes=71 #classindex=0
+Network structure (nodes followed by parents)
+emotion(7): 
+pixel0(4): pixel62 
+pixel1(5): pixel6 pixel65 
+pixel2(5): pixel7 pixel3 
+pixel3(4): pixel68 
+pixel4(4): pixel61 pixel56 
+pixel5(4): pixel1 pixel69 
+pixel6(4): emotion pixel58 
+pixel7(5): pixel4 pixel0 
+pixel8(4): pixel7 pixel56 
+pixel9(3): pixel1 pixel34 
+pixel10(3): pixel14 pixel15 
+pixel11(4): pixel13 pixel15 
+pixel12(2): pixel11 pixel10 
+pixel13(3): pixel10 pixel15 
+pixel14(3): pixel19 pixel15 
+pixel15(4): pixel16 pixel18 
+pixel16(4): pixel18 pixel59 
+pixel17(3): pixel15 pixel16 
+pixel18(3): pixel59 pixel6 
+pixel19(3): pixel17 pixel15 
+pixel20(4): pixel21 pixel29 
+pixel21(4): pixel29 pixel25 
+pixel22(3): emotion pixel21 
+pixel23(3): emotion pixel43 
+pixel24(3): pixel25 pixel23 
+pixel25(5): pixel23 pixel41 
+pixel26(3): pixel22 pixel44 
+pixel27(4): pixel26 pixel22 
+pixel28(4): pixel27 pixel22 
+pixel29(4): pixel25 pixel23 
+pixel30(5): emotion 
+pixel31(5): pixel30 pixel34 
+pixel32(4): pixel33 pixel34 
+pixel33(4): emotion pixel31 
+pixel34(4): pixel30 
+pixel35(5): pixel32 pixel34 
+pixel36(4): emotion pixel35 
+pixel37(4): pixel33 pixel31 
+pixel38(4): pixel36 pixel37 
+pixel39(5): pixel31 pixel37 
+pixel40(3): pixel46 pixel49 
+pixel41(4): pixel48 pixel47 
+pixel42(3): pixel28 pixel14 
+pixel43(5): pixel41 pixel48 
+pixel44(4): pixel43 pixel48 
+pixel45(4): pixel42 pixel44 
+pixel46(3): pixel13 pixel11 
+pixel47(3): pixel40 pixel46 
+pixel48(3): pixel47 pixel46 
+pixel49(4): emotion pixel46 
+pixel50(5): pixel52 pixel56 
+pixel51(4): pixel50 pixel53 
+pixel52(4): pixel56 pixel8 
+pixel53(4): pixel52 pixel50 
+pixel54(4): pixel64 
+pixel55(4): pixel50 pixel56 
+pixel56(4): emotion pixel61 
+pixel57(4): pixel66 
+pixel58(4): pixel51 pixel53 
+pixel59(4): pixel52 pixel53 
+pixel60(5): emotion pixel37 
+pixel61(5): pixel60 pixel67 
+pixel62(4): emotion pixel4 
+pixel63(4): pixel54 pixel65 
+pixel64(4): pixel50 pixel57 
+pixel65(4): pixel57 pixel54 
+pixel66(4): pixel51 pixel58 
+pixel67(4): pixel60 pixel37 
+pixel68(4): pixel0 pixel69 
+pixel69(6): pixel60 pixel67 
+LogScore Bayes: -1354343.7160122036
+LogScore BDeu: -1368379.9656269946
+LogScore MDL: -1367399.783587521
+LogScore ENTROPY: -1349513.0197403685
+LogScore AIC: -1352998.019740368
+Bayes Split Classifier Built in 28.606126308441162 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        2176               30.3191 %
+Incorrectly Classified Instances      5001               69.6809 %
+Kappa statistic                          0.131 
+Mean absolute error                      0.2252
+Root mean squared error                  0.3387
+Relative absolute error                 95.3135 %
+Root relative squared error             98.5314 %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.052    0.024    0.256      0.052    0.087      0.058    0.588     0.194     angry
+                 0.000    0.000    ?          0.000    ?          ?        0.637     0.037     disgust
+                 0.064    0.043    0.201      0.064    0.097      0.036    0.563     0.178     fear
+                 0.664    0.420    0.344      0.664    0.453      0.211    0.676     0.400     happy
+                 0.187    0.107    0.271      0.187    0.221      0.093    0.595     0.226     neutral
+                 0.295    0.171    0.257      0.295    0.275      0.117    0.612     0.238     sad
+                 0.356    0.104    0.298      0.356    0.324      0.233    0.718     0.259     surprise
+Weighted Avg.    0.303    0.173    ?          0.303    ?          ?        0.627     0.261     
+[[5.200e+01 0.000e+00 4.400e+01 5.030e+02 9.000e+01 2.160e+02 8.900e+01]
+ [1.000e+00 0.000e+00 7.000e+00 5.900e+01 1.100e+01 2.800e+01 1.200e+01]
+ [4.000e+01 0.000e+00 6.600e+01 4.270e+02 1.370e+02 1.920e+02 1.630e+02]
+ [4.300e+01 0.000e+00 5.100e+01 1.187e+03 1.440e+02 2.330e+02 1.300e+02]
+ [2.600e+01 0.000e+00 5.300e+01 5.520e+02 2.360e+02 2.490e+02 1.480e+02]
+ [2.600e+01 0.000e+00 5.600e+01 4.800e+02 1.610e+02 3.540e+02 1.210e+02]
+ [1.500e+01 0.000e+00 5.200e+01 2.430e+02 9.200e+01 1.070e+02 2.810e+02]]
+Bayes Split Classifier Evaluated in 0.22973847389221191 secs.

@@ -1,0 +1,37 @@
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilitiesRandom ForestSplit Classifier Built in 7.577694654464722 secs.
+
+Evaluating on test data.
+Correctly Classified Instances       10098               40.1974 %
+Incorrectly Classified Instances     15023               59.8026 %
+Kappa statistic                          0.2562
+Mean absolute error                      0.2137
+Root mean squared error                  0.3222
+Relative absolute error                 90.5072 %
+Root relative squared error             93.7147 %
+Total Number of Instances            25121     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.137    0.037    0.370      0.137    0.199      0.156    0.648     0.275     angry
+                 0.152    0.000    0.966      0.152    0.263      0.381    0.703     0.276     disgust
+                 0.168    0.048    0.371      0.168    0.231      0.171    0.651     0.299     fear
+                 0.763    0.359    0.411      0.763    0.534      0.350    0.778     0.568     happy
+                 0.346    0.126    0.364      0.346    0.355      0.225    0.708     0.366     neutral
+                 0.285    0.119    0.330      0.285    0.305      0.176    0.683     0.311     sad
+                 0.528    0.058    0.537      0.528    0.532      0.473    0.828     0.564     suprise
+Weighted Avg.    0.402    0.149    0.400      0.402    0.370      0.260    0.718     0.406     
+
+[[4.730e+02 1.000e+00 2.010e+02 1.438e+03 5.340e+02 6.010e+02 2.160e+02]
+ [1.800e+01 5.700e+01 2.600e+01 1.540e+02 4.500e+01 4.300e+01 3.100e+01]
+ [2.090e+02 0.000e+00 6.080e+02 1.304e+03 5.100e+02 5.570e+02 4.290e+02]
+ [1.470e+02 0.000e+00 2.100e+02 4.743e+03 4.270e+02 4.430e+02 2.470e+02]
+ [1.180e+02 0.000e+00 2.000e+02 1.673e+03 1.497e+03 6.290e+02 2.080e+02]
+ [2.200e+02 0.000e+00 2.350e+02 1.615e+03 8.250e+02 1.217e+03 1.650e+02]
+ [9.500e+01 1.000e+00 1.600e+02 6.080e+02 2.790e+02 2.010e+02 1.503e+03]]
+
+Random ForestClassifier Evaluated in 1.9018669128417969 secs.

@@ -1,0 +1,54 @@
+Bayes Network Classifier
+not using ADTree
+#attributes=15 #classindex=0
+Network structure (nodes followed by parents)
+emotion(7): 
+pixel0(4): emotion pixel13 
+pixel1(5): emotion pixel10 
+pixel2(2): emotion pixel3 
+pixel3(4): emotion pixel8 
+pixel4(5): emotion pixel5 
+pixel5(5): emotion 
+pixel6(5): emotion pixel7 
+pixel7(6): emotion pixel12 
+pixel8(3): emotion pixel9 
+pixel9(4): emotion pixel4 
+pixel10(4): emotion pixel3 
+pixel11(4): emotion pixel5 
+pixel12(5): emotion pixel13 
+pixel13(4): emotion pixel10 
+LogScore Bayes: -444994.3435366192
+LogScore BDeu: -451274.6328010984
+LogScore MDL: -450072.6016854686
+LogScore ENTROPY: -443143.72616361594
+LogScore AIC: -444493.72616361594
+Bayes Split Classifier Built in 0.4156806468963623 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        2228               31.0436 %
+Incorrectly Classified Instances      4949               68.9564 %
+Kappa statistic                          0.1413
+Mean absolute error                      0.2234
+Root mean squared error                  0.3365
+Relative absolute error                 94.6347 %
+Root relative squared error             97.9907 %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.085    0.038    0.268      0.085    0.129      0.079    0.589     0.197     angry
+                 0.000    0.001    0.000      0.000    0.000      -0.003   0.633     0.032     disgust
+                 0.073    0.034    0.271      0.073    0.115      0.070    0.588     0.195     fear
+                 0.620    0.385    0.355      0.620    0.452      0.206    0.670     0.402     happy
+                 0.262    0.146    0.274      0.262    0.268      0.119    0.630     0.260     neutral
+                 0.277    0.164    0.245      0.277    0.260      0.108    0.633     0.229     sad
+                 0.372    0.092    0.323      0.372    0.346      0.264    0.749     0.322     surprise
+Weighted Avg.    0.310    0.170    0.290      0.310    0.276      0.140    0.641     0.276     
+[[8.600e+01 1.000e+00 3.600e+01 4.310e+02 1.460e+02 2.130e+02 1.000e+02]
+ [9.000e+00 0.000e+00 5.000e+00 5.400e+01 1.500e+01 1.900e+01 6.000e+00]
+ [5.300e+01 2.000e+00 7.800e+01 3.990e+02 1.610e+02 2.000e+02 1.720e+02]
+ [5.400e+01 0.000e+00 6.000e+01 1.136e+03 2.210e+02 2.400e+02 1.220e+02]
+ [4.200e+01 1.000e+00 3.800e+01 4.990e+02 3.260e+02 2.290e+02 1.090e+02]
+ [5.400e+01 0.000e+00 3.700e+01 4.560e+02 2.110e+02 3.210e+02 8.000e+01]
+ [2.300e+01 0.000e+00 3.400e+01 2.210e+02 1.100e+02 8.600e+01 2.810e+02]]
+Bayes Split Classifier Evaluated in 0.07950067520141602 secs.

@@ -1,0 +1,10 @@
+Correct Count
+
+Angry:		4952
+Disgust:	547
+Fear:		5121
+Happy:		8989
+Neutral:	6198
+Sad:		6077
+Surprise:	4002
+ 

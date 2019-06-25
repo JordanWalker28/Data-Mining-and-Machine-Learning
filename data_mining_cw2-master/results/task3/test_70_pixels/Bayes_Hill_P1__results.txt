@@ -1,0 +1,110 @@
+Bayes Network Classifier
+not using ADTree
+#attributes=71 #classindex=0
+Network structure (nodes followed by parents)
+emotion(7): 
+pixel0(4): emotion 
+pixel1(5): emotion 
+pixel2(5): emotion 
+pixel3(4): emotion 
+pixel4(4): emotion 
+pixel5(4): emotion 
+pixel6(4): emotion 
+pixel7(5): emotion 
+pixel8(4): emotion 
+pixel9(3): emotion 
+pixel10(3): emotion 
+pixel11(4): emotion 
+pixel12(2): emotion 
+pixel13(3): emotion 
+pixel14(3): emotion 
+pixel15(4): emotion 
+pixel16(4): emotion 
+pixel17(3): emotion 
+pixel18(3): emotion 
+pixel19(3): emotion 
+pixel20(4): emotion 
+pixel21(4): emotion 
+pixel22(3): emotion 
+pixel23(3): emotion 
+pixel24(3): emotion 
+pixel25(5): emotion 
+pixel26(3): emotion 
+pixel27(4): emotion 
+pixel28(4): emotion 
+pixel29(4): emotion 
+pixel30(5): emotion 
+pixel31(5): emotion 
+pixel32(4): emotion 
+pixel33(4): emotion 
+pixel34(4): emotion 
+pixel35(5): emotion 
+pixel36(4): emotion 
+pixel37(4): emotion 
+pixel38(4): emotion 
+pixel39(5): emotion 
+pixel40(3): emotion 
+pixel41(4): emotion 
+pixel42(3): emotion 
+pixel43(5): emotion 
+pixel44(4): emotion 
+pixel45(4): emotion 
+pixel46(3): emotion 
+pixel47(3): emotion 
+pixel48(3): emotion 
+pixel49(4): emotion 
+pixel50(5): emotion 
+pixel51(4): emotion 
+pixel52(4): emotion 
+pixel53(4): emotion 
+pixel54(4): emotion 
+pixel55(4): emotion 
+pixel56(4): emotion 
+pixel57(4): emotion 
+pixel58(4): emotion 
+pixel59(4): emotion 
+pixel60(5): emotion 
+pixel61(5): emotion 
+pixel62(4): emotion 
+pixel63(4): emotion 
+pixel64(4): emotion 
+pixel65(4): emotion 
+pixel66(4): emotion 
+pixel67(4): emotion 
+pixel68(4): emotion 
+pixel69(6): emotion 
+LogScore Bayes: -2412228.508118619
+LogScore BDeu: -2416631.4129353063
+LogScore MDL: -2415628.8946074434
+LogScore ENTROPY: -2408197.0340477102
+LogScore AIC: -2409645.0340477102
+Bayes Split Classifier Built in 11.035180807113647 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        1826               25.4424 %
+Incorrectly Classified Instances      5351               74.5576 %
+Kappa statistic                          0.1104
+Mean absolute error                      0.215 
+Root mean squared error                  0.4231
+Relative absolute error                 90.9936 %
+Root relative squared error            123.084  %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.084    0.042    0.242      0.084    0.124      0.067    0.584     0.188     angry
+                 0.042    0.019    0.037      0.042    0.039      0.022    0.571     0.022     disgust
+                 0.047    0.038    0.171      0.047    0.074      0.016    0.539     0.167     fear
+                 0.304    0.171    0.371      0.304    0.334      0.143    0.598     0.361     happy
+                 0.129    0.059    0.320      0.129    0.184      0.104    0.587     0.243     neutral
+                 0.437    0.290    0.232      0.437    0.303      0.118    0.605     0.220     sad
+                 0.582    0.270    0.211      0.582    0.309      0.212    0.719     0.248     surprise
+Weighted Avg.    0.254    0.143    0.269      0.254    0.229      0.109    0.600     0.247     
+[[ 83.  23.  54. 196.  45. 356. 237.]
+ [  2.   5.   5.  24.   2.  39.  41.]
+ [ 55.  17.  48. 182.  64. 308. 351.]
+ [ 72.  35.  42. 543.  96. 502. 498.]
+ [ 41.  17.  36. 251. 163. 424. 332.]
+ [ 58.  26.  54. 185.  86. 524. 265.]
+ [ 32.  13.  42.  82.  54. 107. 460.]]
+Bayes Split Classifier Evaluated in 0.17488908767700195 secs.

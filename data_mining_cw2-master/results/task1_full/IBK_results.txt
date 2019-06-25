@@ -1,0 +1,32 @@
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+IBK Split Classifier Built in 0.10599923133850098 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        2497               34.7917 %
+Incorrectly Classified Instances      4680               65.2083 %
+Kappa statistic                          0.2139
+Mean absolute error                      0.1935
+Root mean squared error                  0.3574
+Relative absolute error                 81.9399 %
+Root relative squared error            104.003  %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.392    0.173    0.271      0.392    0.320      0.189    0.648     0.261     angry
+                 0.443    0.024    0.203      0.443    0.278      0.286    0.782     0.257     disgust
+                 0.353    0.147    0.290      0.353    0.318      0.190    0.648     0.256     fear
+                 0.409    0.189    0.420      0.409    0.414      0.222    0.658     0.374     happy
+                 0.334    0.149    0.318      0.334    0.326      0.182    0.632     0.257     neutral
+                 0.190    0.074    0.337      0.190    0.243      0.149    0.620     0.237     sad
+                 0.392    0.031    0.614      0.392    0.479      0.441    0.779     0.428     suprise
+Weighted Avg.    0.348    0.135    0.368      0.348    0.349      0.219    0.660     0.303     
+[[396.  18. 148. 180. 159.  85.  25.]
+ [ 15.  43.   8.  16.   8.   6.   1.]
+ [195.  18. 367. 190. 124.  91.  56.]
+ [294.  45. 230. 736. 306. 131.  58.]
+ [223.  32. 168. 259. 412. 102.  37.]
+ [252.  42. 212. 237. 193. 225.  23.]
+ [ 88.  14. 134. 135.  95.  27. 318.]]
+IBK Split Classifier Evaluated in 1144.9180948734283 secs.

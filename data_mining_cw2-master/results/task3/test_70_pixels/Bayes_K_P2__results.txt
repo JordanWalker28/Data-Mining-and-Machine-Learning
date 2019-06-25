@@ -1,0 +1,110 @@
+Bayes Network Classifier
+not using ADTree
+#attributes=71 #classindex=0
+Network structure (nodes followed by parents)
+emotion(7): 
+pixel0(4): emotion 
+pixel1(5): emotion pixel0 
+pixel2(5): emotion pixel0 
+pixel3(4): emotion pixel0 
+pixel4(4): emotion pixel0 
+pixel5(4): emotion pixel1 
+pixel6(4): emotion pixel1 
+pixel7(5): emotion pixel2 
+pixel8(4): emotion pixel7 
+pixel9(3): emotion pixel1 
+pixel10(3): emotion pixel6 
+pixel11(4): emotion pixel10 
+pixel12(2): emotion pixel11 
+pixel13(3): emotion pixel11 
+pixel14(3): emotion pixel10 
+pixel15(4): emotion pixel10 
+pixel16(4): emotion pixel15 
+pixel17(3): emotion pixel15 
+pixel18(3): emotion pixel16 
+pixel19(3): emotion pixel14 
+pixel20(4): emotion pixel2 
+pixel21(4): emotion pixel20 
+pixel22(3): emotion pixel21 
+pixel23(3): emotion pixel21 
+pixel24(3): emotion pixel23 
+pixel25(5): emotion pixel23 
+pixel26(3): emotion pixel22 
+pixel27(4): emotion pixel26 
+pixel28(4): emotion pixel27 
+pixel29(4): emotion pixel21 
+pixel30(5): emotion pixel5 
+pixel31(5): emotion pixel30 
+pixel32(4): emotion pixel30 
+pixel33(4): emotion pixel32 
+pixel34(4): emotion pixel30 
+pixel35(5): emotion pixel32 
+pixel36(4): emotion pixel35 
+pixel37(4): emotion pixel33 
+pixel38(4): emotion pixel36 
+pixel39(5): emotion pixel31 
+pixel40(3): emotion pixel13 
+pixel41(4): emotion pixel25 
+pixel42(3): emotion pixel28 
+pixel43(5): emotion pixel41 
+pixel44(4): emotion pixel43 
+pixel45(4): emotion pixel42 
+pixel46(3): emotion pixel40 
+pixel47(3): emotion pixel40 
+pixel48(3): emotion pixel47 
+pixel49(4): emotion pixel46 
+pixel50(5): emotion pixel4 
+pixel51(4): emotion pixel50 
+pixel52(4): emotion pixel50 
+pixel53(4): emotion pixel52 
+pixel54(4): emotion pixel50 
+pixel55(4): emotion pixel50 
+pixel56(4): emotion pixel52 
+pixel57(4): emotion pixel51 
+pixel58(4): emotion pixel51 
+pixel59(4): emotion pixel52 
+pixel60(5): emotion pixel3 
+pixel61(5): emotion pixel60 
+pixel62(4): emotion pixel0 
+pixel63(4): emotion pixel54 
+pixel64(4): emotion pixel54 
+pixel65(4): emotion pixel57 
+pixel66(4): emotion pixel57 
+pixel67(4): emotion pixel60 
+pixel68(4): emotion pixel3 
+pixel69(6): emotion pixel60 
+LogScore Bayes: -1458423.4962816865
+LogScore BDeu: -1485014.1525028974
+LogScore MDL: -1481748.2443039285
+LogScore ENTROPY: -1451358.7095151204
+LogScore AIC: -1457279.7095151208
+Bayes Split Classifier Built in 6.204133749008179 secs.
+
+Evaluating on test data.
+Correctly Classified Instances        2203               30.6953 %
+Incorrectly Classified Instances      4974               69.3047 %
+Kappa statistic                          0.1556
+Mean absolute error                      0.2143
+Root mean squared error                  0.3473
+Relative absolute error                 90.7269 %
+Root relative squared error            101.0481 %
+Total Number of Instances             7177     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.127    0.059    0.257      0.127    0.170      0.093    0.612     0.208     angry
+                 0.042    0.004    0.143      0.042    0.065      0.070    0.698     0.063     disgust
+                 0.121    0.079    0.204      0.121    0.152      0.053    0.576     0.183     fear
+                 0.484    0.258    0.384      0.484    0.429      0.211    0.667     0.425     happy
+                 0.293    0.149    0.296      0.293    0.294      0.145    0.649     0.281     neutral
+                 0.271    0.151    0.265      0.271    0.268      0.119    0.636     0.248     sad
+                 0.490    0.145    0.295      0.490    0.368      0.279    0.743     0.315     surprise
+Weighted Avg.    0.307    0.151    0.292      0.307    0.290      0.150    0.647     0.287     
+[[126.   4.  90. 290. 170. 198. 116.]
+ [ 10.   5.   5.  48.  16.  19.  15.]
+ [ 74.   6. 124. 268. 144. 171. 238.]
+ [ 82.   4. 114. 866. 255. 232. 235.]
+ [ 69.  10.  79. 349. 370. 215. 172.]
+ [ 86.   4. 120. 301. 211. 325. 151.]
+ [ 43.   2.  77. 132.  83.  66. 387.]]
+Bayes Split Classifier Evaluated in 0.2918663024902344 secs.

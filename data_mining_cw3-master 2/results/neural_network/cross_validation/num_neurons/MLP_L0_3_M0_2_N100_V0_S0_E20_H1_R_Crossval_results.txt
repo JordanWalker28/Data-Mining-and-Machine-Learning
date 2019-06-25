@@ -1,0 +1,105 @@
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.8420675845506835
+    Node 7    -0.21081710895467454
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.1680583535819755
+    Node 7    0.07703815200684261
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.093692997991917
+    Node 7    0.409619943465554
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.14462778951583294
+    Node 7    -3.626060105667903
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.7789722856694474
+    Node 7    0.12597739429716445
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.9315490187064857
+    Node 7    0.7943653580764083
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -3.806591301998402
+    Node 7    3.4475230121994396
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.3131321969213618
+    Attrib pixel180    -0.2940237083536559
+    Attrib pixel343    0.11255157431710076
+    Attrib pixel367    1.0343536552119956
+    Attrib pixel368    0.17096599144202004
+    Attrib pixel376    0.4218674373208013
+    Attrib pixel391    0.847631911271875
+    Attrib pixel400    0.35899955454797144
+    Attrib pixel401    0.8656277608655105
+    Attrib pixel415    1.9273804281252427
+    Attrib pixel424    1.354050457612448
+    Attrib pixel467    -1.4197846787504675
+    Attrib pixel468    -0.6206303314957341
+    Attrib pixel469    -0.5942736180649442
+    Attrib pixel490    -0.8980022516548279
+    Attrib pixel491    0.2224654430346127
+    Attrib pixel492    0.09964836210335079
+    Attrib pixel493    -0.8416435867112442
+    Attrib pixel515    -1.5003122160402471
+    Attrib pixel563    -0.6583534828525605
+    Attrib pixel566    -0.21083253457336226
+Class angry
+    Input
+    Node 0
+Class disgust
+    Input
+    Node 1
+Class fear
+    Input
+    Node 2
+Class happy
+    Input
+    Node 3
+Class neutral
+    Input
+    Node 4
+Class sad
+    Input
+    Node 5
+Class suprise
+    Input
+    Node 6
+MLP Cross Eval Classifier Built in 4.728936672210693 secs.
+
+Cross Evaluating on test data.
+Correctly Classified Instances       10705               29.8297 %
+Incorrectly Classified Instances     25182               70.1703 %
+Kappa statistic                          0.1175
+Mean absolute error                      0.2274
+Root mean squared error                  0.3379
+Relative absolute error                 96.2927 %
+Root relative squared error             98.3217 %
+Total Number of Instances            35887     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.059    0.047    0.167      0.059    0.087      0.019    0.515     0.145     angry
+                 0.000    0.000    ?          0.000    ?          ?        0.534     0.017     disgust
+                 0.065    0.053    0.170      0.065    0.094      0.019    0.554     0.164     fear
+                 0.807    0.487    0.356      0.807    0.494      0.279    0.722     0.426     happy
+                 0.200    0.163    0.203      0.200    0.201      0.036    0.541     0.191     neutral
+                 0.024    0.019    0.204      0.024    0.043      0.013    0.542     0.188     sad
+                 0.362    0.112    0.288      0.362    0.321      0.227    0.707     0.256     suprise
+Weighted Avg.    0.298    0.180    ?          0.298    ?          ?        0.603     0.243     
+
+[[ 290.    0.  307. 2717.  934.  104.  601.]
+ [  31.    0.   23.  303.  108.   16.   66.]
+ [ 274.    0.  333. 2487. 1011.  133.  883.]
+ [ 215.    0.  205. 7250.  829.   85.  405.]
+ [ 378.    0.  395. 3301. 1237.  155.  732.]
+ [ 337.    0.  404. 3078. 1222.  146.  890.]
+ [ 208.    0.  296. 1224.  748.   77. 1449.]]
+
+MLP Cross Eval Classifier Evaluated in 37.23066854476929 secs.

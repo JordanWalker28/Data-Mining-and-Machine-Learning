@@ -1,0 +1,100 @@
+
+kMeans
+======
+
+Number of iterations: 21
+Within cluster sum of squared errors: 21782.385419868468
+
+Initial starting points (random):
+
+Cluster 0: 0.352941,0.368627,0.119608,0.010784,0.259804,0.278431,0.195098,0.255882,0.162745,0.113725,0.316667,0.231373,0.266667,0.296078
+Cluster 1: 0.672549,0.822549,0.257843,0.216667,0.321569,0.221569,0.453922,0.380392,0.215686,0.146078,0.780392,0.917647,0.739216,0.572549
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+            (35887.0) (19421.0) (16466.0)
+=========================================
+pixel0         0.5957    0.5368    0.6652
+pixel1         0.5901    0.5471    0.6409
+pixel2         0.5197    0.4295     0.626
+pixel3         0.5338     0.442    0.6421
+pixel4         0.4493    0.2536    0.6801
+pixel5         0.4565    0.2636    0.6841
+pixel6         0.4883    0.4494    0.5342
+pixel7         0.4877    0.4459    0.5369
+pixel8         0.4432    0.3054    0.6057
+pixel9         0.4144    0.2482    0.6104
+pixel10         0.612    0.5579    0.6757
+pixel11        0.4341    0.3204    0.5681
+pixel12        0.5847    0.5248    0.6553
+pixel13        0.6128    0.5539    0.6823
+
+
+Clusterer Built in 0.3106350898742676 secs.
+
+Clustering data.
+Cluster results
+
+kMeans
+======
+
+Number of iterations: 21
+Within cluster sum of squared errors: 21782.385419868468
+
+Initial starting points (random):
+
+Cluster 0: 0.352941,0.368627,0.119608,0.010784,0.259804,0.278431,0.195098,0.255882,0.162745,0.113725,0.316667,0.231373,0.266667,0.296078
+Cluster 1: 0.672549,0.822549,0.257843,0.216667,0.321569,0.221569,0.453922,0.380392,0.215686,0.146078,0.780392,0.917647,0.739216,0.572549
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+            (35887.0) (19421.0) (16466.0)
+=========================================
+pixel0         0.5957    0.5368    0.6652
+pixel1         0.5901    0.5471    0.6409
+pixel2         0.5197    0.4295     0.626
+pixel3         0.5338     0.442    0.6421
+pixel4         0.4493    0.2536    0.6801
+pixel5         0.4565    0.2636    0.6841
+pixel6         0.4883    0.4494    0.5342
+pixel7         0.4877    0.4459    0.5369
+pixel8         0.4432    0.3054    0.6057
+pixel9         0.4144    0.2482    0.6104
+pixel10         0.612    0.5579    0.6757
+pixel11        0.4341    0.3204    0.5681
+pixel12        0.5847    0.5248    0.6553
+pixel13        0.6128    0.5539    0.6823
+
+
+Clustered Instances
+
+0      19421 ( 54%)
+1      16466 ( 46%)
+
+
+Class attribute: emotion
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+ 2668 2285 | angry
+  281  266 | disgust
+ 2361 2760 | fear
+ 5129 3860 | happy
+ 3793 2405 | neutral
+ 3623 2454 | sad
+ 1566 2436 | surprise
+
+Cluster 0 <-- happy
+Cluster 1 <-- fear
+
+Incorrectly clustered instances :	27998.0	 78.0171 %
+
+Classes to clusters
+[3 2]
+Clustered data in 0.026192903518676758 secs.

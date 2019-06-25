@@ -1,0 +1,32 @@
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+IBK Cross Eval Classifier Built in 0.0982661247253418 secs.
+
+Cross Evaluating on test data.
+Correctly Classified Instances       10668               29.7266 %
+Incorrectly Classified Instances     25219               70.2734 %
+Kappa statistic                          0.1555
+Mean absolute error                      0.2039
+Root mean squared error                  0.3676
+Relative absolute error                 86.3275 %
+Root relative squared error            106.9733 %
+Total Number of Instances            35887     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.369    0.219    0.212      0.369    0.270      0.121    0.599     0.219     angry
+                 0.360    0.020    0.218      0.360    0.272      0.266    0.724     0.224     disgust
+                 0.310    0.168    0.234      0.310    0.267      0.126    0.616     0.227     fear
+                 0.364    0.203    0.375      0.364    0.370      0.163    0.625     0.342     happy
+                 0.210    0.106    0.293      0.210    0.245      0.120    0.600     0.233     neutral
+                 0.167    0.072    0.320      0.167    0.219      0.125    0.605     0.234     sad
+                 0.366    0.056    0.451      0.366    0.404      0.340    0.754     0.353     surprise
+Weighted Avg.    0.297    0.142    0.315      0.297    0.296      0.159    0.628     0.271     
+[[1829.  107.  786. 1012.  512.  448.  259.]
+ [ 119.  197.   53.   84.   38.   30.   26.]
+ [1160.  104. 1586.  958.  521.  423.  369.]
+ [1977.  165. 1516. 3276.  987.  585.  483.]
+ [1375.  141. 1072. 1468. 1304.  495.  343.]
+ [1524.  132. 1086. 1298.  722. 1013.  302.]
+ [ 628.   58.  668.  646.  363.  176. 1463.]]
+IBK Cross Eval Classifier Evaluated in 109.5851571559906 secs.

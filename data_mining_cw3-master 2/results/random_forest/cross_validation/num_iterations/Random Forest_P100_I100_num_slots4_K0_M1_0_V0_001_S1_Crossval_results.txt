@@ -1,0 +1,37 @@
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilitiesRandom Forest Cross Eval Classifier Built in 37.55322003364563 secs.
+
+Cross Evaluating on test data.
+Correctly Classified Instances       16506               45.9944 %
+Incorrectly Classified Instances     19381               54.0056 %
+Kappa statistic                          0.3301
+Mean absolute error                      0.202 
+Root mean squared error                  0.3105
+Relative absolute error                 85.5099 %
+Root relative squared error             90.3394 %
+Total Number of Instances            35887     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.186    0.030    0.497      0.186    0.271      0.243    0.698     0.352     angry
+                 0.314    0.000    0.983      0.314    0.476      0.553    0.800     0.486     disgust
+                 0.266    0.042    0.512      0.266    0.350      0.299    0.720     0.414     fear
+                 0.768    0.312    0.451      0.768    0.568      0.399    0.811     0.627     happy
+                 0.400    0.121    0.408      0.400    0.404      0.281    0.750     0.433     neutral
+                 0.355    0.124    0.368      0.355    0.361      0.234    0.723     0.377     sad
+                 0.627    0.045    0.635      0.627    0.631      0.585    0.877     0.695     suprise
+Weighted Avg.    0.460    0.135    0.473      0.460    0.438      0.338    0.764     0.488     
+
+[[9.220e+02 1.000e+00 2.780e+02 1.885e+03 7.590e+02 8.640e+02 2.440e+02]
+ [2.200e+01 1.720e+02 3.400e+01 1.800e+02 5.300e+01 5.500e+01 3.100e+01]
+ [2.460e+02 1.000e+00 1.363e+03 1.528e+03 6.920e+02 8.330e+02 4.580e+02]
+ [1.740e+02 0.000e+00 2.270e+02 6.906e+03 6.350e+02 7.660e+02 2.810e+02]
+ [1.550e+02 0.000e+00 2.380e+02 2.145e+03 2.477e+03 9.490e+02 2.340e+02]
+ [2.490e+02 0.000e+00 3.360e+02 1.987e+03 1.156e+03 2.155e+03 1.940e+02]
+ [8.600e+01 1.000e+00 1.880e+02 6.800e+02 3.020e+02 2.340e+02 2.511e+03]]
+
+Random Forest Cross Eval Classifier Evaluated in 264.1878995895386 secs.

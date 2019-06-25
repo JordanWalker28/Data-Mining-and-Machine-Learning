@@ -1,0 +1,8 @@
+fer2018/
+.vscode/
+weka_env/
+*.arff
+*.model
+trained_models/
+__pycache__
+.vscode
