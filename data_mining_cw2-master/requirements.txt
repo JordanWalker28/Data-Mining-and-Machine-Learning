@@ -4,7 +4,7 @@ javabridge==1.0.18
 kiwisolver==1.0.1
 matplotlib==3.0.0
 numpy==1.15.2
-Pillow==5.3.0
+Pillow==9.0.1
 pygraphviz==1.5
 pyparsing==2.2.2
 python-dateutil==2.7.3
